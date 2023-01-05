@@ -15,7 +15,7 @@ dotenv.config(); // extensión para utilizar las variables de entrono
 
 conectarDB();
 
-const dominiosPermitidos = [process.env.FRONTEND_URL];
+const dominiosPermitidos = [process.env.FRONTEND_URL, process.env.POSTMAN_URL];
 
 const corsOptions = {
 
