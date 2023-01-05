@@ -25,7 +25,7 @@ const corsOptions = {
             // El origen del request está en el parametro
             callback(null, true);
         } else {
-            callback( new Error(`No permitido por CORS ${origin}`));
+            callback( new Error(`No permitido por CORS 2 ${origin}`));
         }
     }
 
